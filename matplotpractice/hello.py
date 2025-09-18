@@ -14,3 +14,12 @@ plt.ylabel("Y-axis")
 
 # Show the graph
 plt.show()
+
+x = [5, 7, 8, 7, 6, 9, 5, 8, 7, 6]
+y = [99, 86, 87, 88, 100, 86, 103, 87, 94, 78]
+
+plt.scatter(x, y, color="red")
+plt.title("Scatter Plot Example")
+plt.xlabel("X values")
+plt.ylabel("Y values")
+plt.show()
