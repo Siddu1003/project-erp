@@ -19,7 +19,7 @@ app.add_middleware(
 # ✅ Mount frontend folder
 app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
 
-FREEPIK_API_KEY = "FPSX89b0837a1cad69f410829e09e3684dd1"
+FREEPIK_API_KEY = "FREEPIK_API_KEY"
 FREEPIK_API_URL = "https://api.freepik.com/v1/ai/mystic"
 
 
