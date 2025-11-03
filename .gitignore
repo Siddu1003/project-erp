@@ -1,0 +1,14 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+fastapipractice/generated_qrcodes/.env
+
+# Ignore data files
+*.xlsx
+
+# Ignore OS and editor files
+.vscode/
+.DS_Store
