@@ -34,8 +34,8 @@ app = FastAPI()
 app.mount("/frontend", StaticFiles(directory="frontend"), name="frontend")
 
 # ---------------------- PayPal Credentials ----------------------
-PAYPAL_CLIENT_ID = "AdsNSglojrc-BnrWe8nPAjzYmvhHL45pQxcZq7_XZ32CC6xQ9EoDJzd994nUEjlE6P-Or1HBlG8JqcSD"
-PAYPAL_SECRET = "EEVmj90rX-H87IHzCiocUnvxRbMPyThbklmEOZv5tQW_xhLo7V4B0JtXzzF3dBoivY1O9r7DOtpKNhYY"
+PAYPAL_CLIENT_ID = "PAYPAL_ID"
+PAYPAL_SECRET = "PAYPAL_SECRET_KEY"
 PAYPAL_API_BASE = "https://api-m.sandbox.paypal.com"
 
 # Replace with your own Webhook.site URL
